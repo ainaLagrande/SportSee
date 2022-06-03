@@ -1,0 +1,54 @@
+.main_activity{
+    width: 70%;
+    margin-top: 2%;
+    background-color:#E5E5E5;
+    padding: 3% 2% 3% 2%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+    border-radius: 5px;
+    margin-left: 8%;
+
+    .activity_infos{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+    .activity_txt{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 36%;
+    }
+    .color{
+        background-color: #282D30;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 7%;
+        
+    }
+    .weight,.calories {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        p{
+            width: 100%;
+            color: #74798C;
+        }   
+    }
+    .red{
+        background-color: $primary_color;
+    }
+
+}
+.too_type_box{
+    width: 39px;
+    height: 63px;
+    background-color: $primary_color;
+    color: white;
+    line-height: 2em;
+    font-size: 10px;
+    padding: 5%;
+    margin-left:7%;
+}

@@ -1,0 +1,32 @@
+.index{
+    padding-left: 8%;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .button_box{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            width: 40%;
+            height: 80px;
+            border: none;
+            background-color: black;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    }
+
+}

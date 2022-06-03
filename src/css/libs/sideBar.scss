@@ -1,0 +1,29 @@
+.sedeBar{
+    height: 100%;
+    width: 5%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .icons_box{
+        display: flex;
+        align-items: center;
+        height: 70%;
+        width: 100%;
+       
+    }
+    .icon{
+        width: 90%;
+    }
+    p{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform: rotate(-180deg);
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+}

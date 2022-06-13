@@ -1,8 +1,8 @@
-// import UserPerformance from "../../components/graphics/UserPerformance"
+import UserPerformance from "../../components/graphics/UserPerformance"
 
-// export default function UserPerformancePage() {
-//     return (<div className="graphics_page">
-//         <UserPerformance />
-//     </div>)
+export default function UserPerformancePage() {
+    return (<div className="graphics_page">
+        <UserPerformance />
+    </div>)
 
-// }
+}

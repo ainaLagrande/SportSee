@@ -4,5 +4,4 @@ export default function UserActivityPage() {
     return (<div className="graphics_page">
         <UserActivity />
     </div>)
-
 }

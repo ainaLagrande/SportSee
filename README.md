@@ -29,8 +29,7 @@ yarn yarn dev
 ### Installing Front-End
 
 - Clone, fork or download  this repository : `git clone https://github.com/ainaLagrande/SportSee`
-- install dependencies : `npm install`
-- Launch front-end on port 3001 (default port) : `npm start`
+- Launch front-end on port 3001 (default port) :
 
 ```
 npm start

@@ -39,3 +39,6 @@ import PropTypes from "prop-types";
 }
 
 
+ScoreChart.propTypes = {
+  data: PropTypes.object,
+};

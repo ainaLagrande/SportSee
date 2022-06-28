@@ -59,3 +59,8 @@ import ActivityToolType from '../Tools/ToolType';
     );
 }
 
+UserActivity.propTypes = {
+    sessions: PropTypes.object,
+  }
+  
+  

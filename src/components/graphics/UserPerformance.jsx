@@ -52,5 +52,8 @@ import {Radar,RadarChart,PolarGrid,PolarAngleAxis,ResponsiveContainer} from "rec
 		</ResponsiveContainer>
     </div> );
 }
-
+UserPerformance.propTypes = {
+    data: PropTypes.array,
+    kind: PropTypes.object
+}
  

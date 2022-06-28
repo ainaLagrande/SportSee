@@ -10,3 +10,7 @@ export default function SessionsToolType({ active, payload }) {
   return null;
 }
 
+SessionsToolType.propTypes = {
+  active: PropTypes.bool,
+  payload: PropTypes.array,
+};

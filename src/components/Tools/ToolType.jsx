@@ -14,3 +14,8 @@ export default function ActivityToolType({active, payload}) {
     }
     return null
 }
+
+ActivityToolType.propTypes = {
+	active: PropTypes.bool,
+	payload: PropTypes.array,
+};

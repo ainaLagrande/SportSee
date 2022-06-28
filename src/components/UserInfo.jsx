@@ -12,3 +12,6 @@ export default function UserInfos({name}) {
     </div>
     );
 }
+UserInfos.propTypes = {
+	name: PropTypes.string,
+};

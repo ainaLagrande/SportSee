@@ -14,3 +14,10 @@ export default function KeyData({icon,info,text}) {
         </div>
     </div> );
 }
+
+KeyData.propTypes = {
+    icon: PropTypes.any,
+    info: PropTypes.string,
+    text: PropTypes.string,
+  }
+  

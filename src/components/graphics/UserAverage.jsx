@@ -53,3 +53,6 @@ export default function UserAverageSessions() {
     </div>
   );
 }
+UserAverageSessions.propTypes = {
+  averageSessions: PropTypes.array.isRequired
+}
